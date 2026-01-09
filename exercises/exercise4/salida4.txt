@@ -1,0 +1,9 @@
+bizum	1170
+cash	1518
+cheque	119
+efectivo	2024
+mastercard	1591
+metalico	915
+paypal	123
+transferencia	409
+visa	2131

@@ -1,0 +1,20 @@
+A Corunha	3121.53
+Arteixo	2913.40
+Burela	2835.52
+Cangas	3033.62
+Carballo	3041.57
+Chantada	2903.86
+Ferrol	2848.27
+Foz	2476.84
+Lugo	2744.10
+Marin	2954.36
+Mondonhedo	1634.06
+Monforte	2846.00
+Naron	2956.12
+Oleiros	3075.78
+Ourense	2932.97
+Pontevedra	2815.01
+Ribeira	2978.05
+Santiago	2710.59
+Sarria	2777.98
+Vigo	2805.89
