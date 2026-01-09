@@ -1,32 +1,32 @@
+#!/usr/bin/python
 import sys
 
-maxSale = None
-oldkey = None
+current = None
+max_sale = 0.0
 
 for line in sys.stdin:
-    data_mapped = line.strip().split("\t")
-    if len(data_mapped) != 2:
+    parts = line.strip().split("\t")
+
+    if len(parts) != 2:
         continue
 
-    thiskey, thisSale = data_mapped
+    store = parts[0]
 
-    
     try:
-        thisSale = float(thisSale)
-    except ValueError:
+        value = float(parts[1])
+    except:
         continue
 
-    
-    if oldkey and oldkey != thiskey:
-        print(oldkey+'\t'+str(maxSale))
-        maxSale = None
+    if current and current != store:
+        print current + "\t" + "%.2f" % max_sale
+        max_sale = 0.0
 
-    oldkey = thiskey
+    current = store
 
-    if maxSale is None or thisSale > maxSale:
-        maxSale = thisSale
+    if value > max_sale:
+        max_sale = value
 
 
-if oldkey is not None:
-    print(oldkey+'\t'+str(maxSale))
+if current:
+    print current + "\t" + "%.2f" % max_sale
 

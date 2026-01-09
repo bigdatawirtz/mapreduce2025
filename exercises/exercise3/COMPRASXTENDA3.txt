@@ -13,7 +13,7 @@ Monforte	3099.46
 Naron	3099.45
 Oleiros	3135.03
 Ourense	3095.35
-Pontevedra	3137.6
+Pontevedra	3137.60
 Ribeira	3114.92
 Santiago	3120.35
 Sarria	3111.65

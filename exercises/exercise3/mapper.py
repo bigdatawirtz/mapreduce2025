@@ -1,9 +1,17 @@
 #!/usr/bin/python
 import sys
+
 for line in sys.stdin:
-    data = line.strip().split("\t")
-    if len(data) == 5:
-        datetime, store, item, cost, payment = data
-        print(store+'\t'+cost)
-    else:
+    parts = line.strip().split("\t")
+
+    if len(parts) != 5:
         continue
+
+    try:
+        store = parts[1]
+        cost = float(parts[3])
+    except:
+        continue
+
+    print store + "\t" + str(cost)
+

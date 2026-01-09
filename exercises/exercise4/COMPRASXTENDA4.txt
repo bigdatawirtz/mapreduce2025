@@ -1,1 +1,9 @@
-El tipo de pago más utilizado es: visa	con 211407 usos
+bizum	114899
+cash	153653
+cheque	12011
+efectivo	201478
+mastercard	158551
+metalico	86976
+paypal	12130
+transferencia	41667
+visa	212088
