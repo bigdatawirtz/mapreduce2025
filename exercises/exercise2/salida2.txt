@@ -1,0 +1,20 @@
+Alimentacion	8198.98
+Automocion	158470.77
+Bebes	73723.17
+Calzado	66505.02
+Cine	4817.50
+Complementos	40874.21
+Cosmetica	50952.66
+Deportes	92573.65
+Electronica	479494.84
+Farmacia	20105.12
+Ferreteria	50716.74
+Hogar	105901.67
+Jardineria	41407.06
+Juguetes	32979.13
+Libros	15074.91
+Mascotas	25984.35
+Moda hombre	79222.80
+Moda mujer	107268.50
+Musica	24112.28
+Ropa	68009.15
