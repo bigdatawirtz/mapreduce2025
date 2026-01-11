@@ -1,0 +1,21 @@
+[xuedua058@cdh61-login2 exercise2]$ hdfs dfs -cat COMPRASXCATEGORIA0/*
+Hogar   244245183.59
+Ferreteria      139119440.93
+Juguetes        85205423.55
+Mascotas        75844294.00
+Calzado 162924195.34
+Deportes        213380505.01
+Libros  38224972.03
+Jardineria      100554767.98
+Alimentacion    20506244.59
+Cine    12102814.20
+Ropa    169647734.58
+Cosmetica       124526013.32
+Farmacia        51440200.50
+Electronica     1262444148.49
+Automocion      409509507.01
+Complementos    104907082.37
+Bebes   167511501.34
+Musica  55625870.22
+Moda hombre     197680385.98
+Moda mujer      237038725.99
