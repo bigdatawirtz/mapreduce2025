@@ -1,0 +1,21 @@
+[xuedua058@cdh61-login2 exercise3]$ hdfs dfs -cat TOPXTENDA/*
+Carballo        3148.63
+Naron   3142.02
+Ribeira 3146.47
+Monforte        3139.71
+Foz     3137.82
+Lugo    3140.80
+Marin   3131.31
+Santiago        3145.91
+A Corunha       3145.35
+Vigo    3140.81
+Ferrol  3142.83
+Mondonhedo      3132.57
+Oleiros 3141.13
+Pontevedra      3142.13
+Ourense 3143.61
+Sarria  3145.26
+Cangas  3140.51
+Burela  3140.05
+Arteixo 3137.96
+Chantada        3141.02

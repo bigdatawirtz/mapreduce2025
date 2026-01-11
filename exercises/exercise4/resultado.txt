@@ -1,0 +1,11 @@
+[xuedua058@cdh61-login2 exercise4]$ hdfs dfs -cat TOPXPAGO/*
+mastercard      3959823
+paypal  297621
+efectivo        5040210
+cash    3835314
+transferencia   1042201
+metalico        2164268
+visa    5314157
+bizum   2882054
+[xuedua058@cdh61-login2 exercise4]$ hdfs dfs -cat TOPXPAGO/* | sort -k2 -nr | head -1
+visa    5314157

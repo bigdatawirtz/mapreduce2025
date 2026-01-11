@@ -1,0 +1,2 @@
+[xuedua058@cdh61-login2 exercise6]$ hdfs dfs -cat TOTALVENTAS/*
+TotalVentas     3846602761.43
