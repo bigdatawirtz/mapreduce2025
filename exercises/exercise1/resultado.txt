@@ -1,0 +1,21 @@
+[xuedua058@cdh61-login2 exercise1]$ hdfs dfs -cat COMPRASXTENDA120/*
+Carballo        201752405.56
+Naron   201769060.03
+Ribeira 202148280.47
+Monforte        121318280.85
+Foz     100172167.84
+Lugo    241266229.74
+Marin   161072509.60
+Santiago        261322233.54
+A Corunha       302043031.51
+Vigo    301515614.34
+Ferrol  201266177.43
+Mondonhedo      100830772.92
+Oleiros 201328574.27
+Pontevedra      241975192.06
+Ourense 241389346.79
+Sarria  140994089.90
+Cangas  161003220.27
+Burela  141371828.37
+Arteixo 201650510.24
+Chantada        120413235.70
