@@ -5,7 +5,6 @@ oldKey = None
 for line in sys.stdin:
     data_mapped = line.strip().split("\t")
     if len(data_mapped) != 2:
-        # Something has gone wrong. Skip this line.
         continue
     thisKey, thisSale = data_mapped
     thisSale = float(thisSale)
@@ -13,7 +12,6 @@ for line in sys.stdin:
     # Reinicia o total
     if oldKey and oldKey != thisKey:
         print(oldKey+"\t"+str(maxSale))
-        oldKey = thisKey;
         maxSale = 0.0
     oldKey = thisKey
     if thisSale > maxSale: maxSale = thisSale
